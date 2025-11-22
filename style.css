@@ -1,0 +1,128 @@
+body { 
+  font-family: Arial, sans-serif; 
+  margin: 0; 
+  background: #000; 
+  color: #ffd700; 
+}
+
+header { 
+  text-align: center; 
+  padding: 15px; 
+  background: #111; 
+}
+nav a { 
+  color: #ffd700; 
+  margin: 0 10px; 
+  text-decoration: none; 
+}
+
+nav a:hover { 
+  text-shadow: 0 0 5px yellow; 
+}
+section { 
+  text-align: center; 
+  padding: 40px; }
+
+img { 
+  border-radius: px; 
+  width: 250px; 
+  cursor: pointer; 
+  box-shadow: 0 0 10px yellow; 
+}
+
+.modal { 
+  display: none; 
+  position: fixed; 
+  inset: 0; 
+  background: rgba(0,0,0,0.8); 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.modal-content { 
+  background: #111; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px #ffd700; 
+}
+
+.close { 
+  float: right; 
+  cursor: pointer; 
+  color: #ffd700; 
+}
+
+footer {
+  text-align: center; 
+  padding: 15px; 
+  background: #111; 
+}
+
+input { 
+  display: block; 
+  width: 80%; 
+  margin: 10px auto; 
+  padding: 10px; 
+  border: none; 
+  border-radius: 5px; 
+}
+
+textarea {
+  display: block; 
+  width: 80%; 
+  margin: 10px auto; 
+  padding: 10px; 
+  border: none; 
+  border-radius: 5px; 
+}
+
+button {
+    display: block; 
+  width: 80%; 
+  margin: 10px auto; 
+  padding: 10px; 
+  border: none; 
+  border-radius: 5px;
+}
+
+
+button { 
+  background: #ffd700;
+  color: #000;
+  cursor: pointer;
+}
+
+button:hover { 
+  background: #ffea00; 
+}
+
+@media (max-width: 600px) {
+  img { width: 100px; }
+  section { padding: 20px; }
+}
+
+span{
+  color: red;
+}
+
+.about-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.Service-box{
+  background: yellow;
+  padding: 25px;
+  border-radius: 10px;
+  width: 200px;
+  transition: 0.3s;
+  text-align: center;
+  color: black;
+  margin: 20px 0 20px 0;
+}
+
+.Service-box:hover{
+  background: white;
+}

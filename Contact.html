@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="Contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <div id="confirmModal" class="modal">
+    <div class="modal-content">
+      <p>Are you sure you want to submit this form?</p>
+      <button id="confirmYes">Yes</button>
+      <button id="confirmNo">No</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Rose Wregbo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
